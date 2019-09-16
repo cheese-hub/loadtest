@@ -50,6 +50,6 @@ for i in {1..30}; do ndslabsctl delete account loadtest$i; done
 
 ### Cleanup test containers
 ```
-for i in {1..20}; do docker stop loadtest$i; done
-for i in {1..20}; do docker rm loadtest$i; done
+for i in {1..30}; do docker stop loadtest$i; done
+for i in {1..30}; do docker rm loadtest$i; done
 ```
