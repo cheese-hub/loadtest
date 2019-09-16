@@ -14,6 +14,8 @@ python account.py https://www.hub.cheesehub.org --prefix loadtest --passwordPref
 
 ## Generate the test configurations
 
+Update `HOST` placeholder in `workbench.postman_environment.json` with actual host (e.g., www.hub.cheesehub.org).
+
 The following command will produce a set of 30 postman environments with username/password test.
 ```
 ./gen.sh
